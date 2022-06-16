@@ -2,6 +2,8 @@
 **Por**ous materials **Make**r
 
 > Python library for the construction of porous materials using topology and building blocks.
+> 
+> Please cite [me](https://pubs.acs.org/doi/abs/10.1021/acsami.1c02471) if you find it useful!
 
 ## Installation
 * Dependencies
@@ -11,13 +13,14 @@ python>=3.7
 ```
 
 ```
-tensorflow>=1.15|tensorflow-gpu>=1.15
+jax[cpu]
 pymatgen<2022
 ase>=3.18.0
 ```
 
 1. Install all dependencies.
 
+**Warning: on Windows system, you have to install `jax` and `pymatgen` manually.**
 ```bash
 $ pip install -r requirements.txt
 ```
